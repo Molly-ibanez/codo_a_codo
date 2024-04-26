@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* BODY */
+
+body {
+    max-width: 100rem;
+}
+
+
+/* HEADER */
+
+
+header img {
+    max-height: 30vh;
+}
+
+
+/* MAIN */
+
+
+
+main {
+    gap: 5%;
+    flex-wrap: wrap;
+    min-height: 15rem;
+    background-color: rgba(189, 114, 181, 0.445);
+}
+
+main img {
+    height: 30vh;    
+}
+
+
+#form {
+    height: 60%;
+
+}
+
+
+
+/* DETAILS */
+
+#img {
+    height: 30vh;
+}
+
+/* FOOTER */
+
+.card-footer {
+    align-content: baseline;
+    justify-content: center;
+}
+
+
+
+/* max hasta ACÁ */
+
+
+@media (max-width:374px) {
+.card-bordered{
+   width: 20rem; 
+
+}
+
+tr, th{
+    font-size: small;
+}
+
+h5{
+    font-size: large;
+
+}
+}
